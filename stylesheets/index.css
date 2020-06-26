@@ -1,0 +1,207 @@
+@font-face{
+  font-family: 'Lato';
+  font-style: normal;
+  src: local('Lato Regular'), local('fonts/Lato/Lato-Regular'), url('fonts/Lato/Lato-Regular.ttf');
+}
+@font-face{
+  font-family: 'Open Sans Condensed';
+  font-style: bold;
+  src: local('Open Sans Condensed'), local('fonts/Open_Sans_Condensed/OpenSansCondensed-Bold'), url('fonts/Open_Sans_Condensed/OpenSansCondensed-Bold.ttf');
+}
+@font-face{
+  font-family: 'Open Sans Condensed Reg';
+  font-style: normal;
+  src: local('Open Sans Condensed'), local('fonts/Open_Sans_Condensed/OpenSansCondensed-Light'), url('fonts/Open_Sans_Condensed/OpenSansCondensed-Light.ttf');
+}
+@font-face{
+  font-family: 'Open Sans Bold';
+  font-style: bold;
+  src: local('Open Sans'), local('fonts/Open_Sans/OpenSans-ExtraBold'), url('fonts/Open_Sans/OpenSans-ExtraBold.ttf');
+}
+@font-face{
+  font-family: 'Open Sans';
+  font-style: bold;
+  src: local('Open Sans'), local('fonts/Open_Sans/OpenSans-Regular'), url('fonts/Open_Sans/OpenSans-Regular.ttf');
+}
+
+.container, .row {
+	font-family: "Open Sans";
+	color: #424242;
+}
+
+.head {
+  border-bottom: 1px solid #7283a7;
+  padding-bottom: 70px;
+  background-image: url("./images/map4.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.head-text p, .head-text ul li {
+  font-size: 17px !important;
+}
+
+img {
+	height: auto;
+	width: 1500px;
+	border: 1px solid #eee;
+	border-radius: 3px;
+}
+
+.image {
+  width: 40%;
+  height: 330px;
+}
+
+.image-intro {
+  width: 90%;
+  height: 350px;
+  text-align: center;
+}
+
+h1 {
+	padding: 50px 20px;
+  padding-bottom: 50px;
+  font-size: 45px;
+}
+
+h2 {
+	text-align: center !important;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  font-family: "Open Sans Bold"
+}
+
+h3 img {
+  text-align: center;
+}
+
+.row {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+.title {
+  font-size: 50px;
+}
+
+.subtitle {
+  text-decoration: underline;
+  font-family: "Open Sans Bold"
+}
+
+.list {
+  text-align: left;
+  margin: 0 !important;
+}
+
+.list-horizontal {
+  text-align: center;
+  padding-left: 0px !important;
+  padding-bottom: 10px;
+  font-weight: 600;
+}
+
+.list-horizontal ul {
+  padding: 0px !important;
+  line-height: 15px;
+}
+
+.list-horizontal ul li {
+  line-height: 15px;
+}
+
+ul {
+  font-family: "Open Sans";
+}
+
+.list h2 {
+  text-align: center;
+  color: #424242;
+}
+
+.list li {
+  margin-left: 20px;
+  list-style-type: none;
+  font-size: 17px;
+  padding-top: 10px;
+  display: inline-block;
+}
+
+.list li strong {
+  font-family: "Open Sans Bold";
+}
+
+.list li i, .fa-location-arrow, .fa-map {
+  padding-right: 7px;
+  color: #7283a7;
+}
+
+.fa-long-arrow-right {
+  color: #26a69a;
+  margin-top: 2px;
+  font-size: 30px;
+  padding: 0px 15px;
+}
+
+a.highlight {
+  color: #26a69a !important;
+}
+
+a {
+  color: #26a69a;
+  padding: 7px 0px;
+  font-family: "Open Sans Bold"
+}
+
+a:hover {
+  color: #7283a7;
+  text-decoration: underline;
+}
+
+a i {
+  padding-right: 4px;
+}
+
+p {
+  font-size: 17px;
+  padding: 7px 0px;
+}
+
+.fa-location-arrow {
+  padding-left: 10px;
+}
+
+.fa-map {
+  padding-right: 10px;
+}
+
+.foot {
+  padding: 0px 20px;
+}
+
+.row {
+  border-bottom: 3px dotted #7283a7;
+}
+
+.button {
+  background-color: #7283a7;
+  color: white !important;
+  padding: 10px;
+  margin: 30px 0px;
+  border: 7px solid white;
+  border-radius: 10px;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: #93a1bf;
+}
+
+.button a {
+  color: white
+}
+
+.button a:hover {
+  text-decoration: none;
+}
